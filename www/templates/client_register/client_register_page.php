@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>Cadastro</title>
+        <link rel="stylesheet" href="css/client_register_style.css">
     </head>
     <body>
-        <div>
+        <div id="content-form">
+            <h1 id="title">Cadastre-se</h1>
             <form method="post" action="client_register_action.php">
                 <div id="name-group">
                     <label for="name">Nome completo: </label>
@@ -32,7 +34,7 @@
                     <input type='password' name="password" id="password"/>
                 </div>
                 <div id="submit-group">
-                    <input type="submit" value="Cadastre-se"/>
+                    <input type="submit" value="Cadastrar-se"/>
                 </div>
                 <?php echo $error; ?>
             </form>

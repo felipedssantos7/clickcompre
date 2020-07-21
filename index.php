@@ -6,5 +6,5 @@
  * and open the template in the editor.
  */
 
-header('Location: www/templates/index.php');
+header('Location: www/templates/index/index.php');
 

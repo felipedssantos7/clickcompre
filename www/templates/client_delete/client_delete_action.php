@@ -23,7 +23,7 @@ if($phrase == "Eu desejo apagar minha conta."){
     # Limpa variável de sessão.
     $_SESSION['client'] = '';
     # Redireciona usuário para a página inicial.
-    header('Location: ../index.php');
+    header('Location: ../index/index.php');
 } else {
     # Retorna para página de remoção informando erro.
     header('Location: client_delete_page.php?invalide_datas=1');

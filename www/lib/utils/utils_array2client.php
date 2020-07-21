@@ -25,6 +25,6 @@ if($client_aux != ''){
     $client->set_id($client_aux['id']);
 } else {
     # Redireciona para a página inicial.
-    header('Location: ../../templates/index.php?not_login=1');
+    header('Location: ../../templates/index/index.php?not_login=1');
 }
 

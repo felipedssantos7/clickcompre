@@ -1,0 +1,51 @@
+/* Configuração padrão. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#content-form {
+    margin: 20px 0px 0px 30px;
+}
+#title {
+    margin-left: 65px; 
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #00c2cb;
+}
+input[type="radio"] {
+    margin-bottom: 5px;
+}
+/* Botões */
+input[type="submit"] {
+    display: block;
+    border: none;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+input[type="submit"] {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #00c2cb;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+/* Labels */
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+#error {
+    color: red;
+}
