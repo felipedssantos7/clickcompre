@@ -1,7 +1,11 @@
 # Banco de dados.
-drop database clickevolue;
-create database clickevolue;
-use clickevolue;
+-- drop database clickevolue;
+-- create database clickevolue;
+-- use clickevolue;
+-- User: b81698ac9e2b6a
+-- Password: 2241ac90
+-- host: us-cdbr-east-02.cleardb.com
+use heroku_b4cd65cb5d1df28;
 
 # Cliente.
 -- Tabela.
