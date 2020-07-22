@@ -1,0 +1,65 @@
+/* Body. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+/* Título. */
+#title {
+    text-align: center;
+}
+.line {
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background-color: #00c2cb;
+    margin-bottom: 20px;
+}
+/* Conteúdo. */
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Informações do cliente. */
+#client-list-table {
+    padding: 0px 20px 30px 20px;
+    display: inline-block;
+    border: 2px solid #00c2cb;
+    border-radius: 10px;
+}
+/* Labels */
+label {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 7.5px;
+}
+#client-table, #client-table tr th, #client-table tr td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+#client-table tr th, #client-table tr td {
+  padding: 10px;
+}
+#client-list-table {
+    margin: 0px auto;
+}
+/* Botões */
+.btn {
+    margin-top: 10px;
+    text-decoration: none;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #00c2cb;
+    border: 1px solid #00c2cb;
+}
+.btn:hover {
+    color: #00c2cb;
+    background-color: white;
+}

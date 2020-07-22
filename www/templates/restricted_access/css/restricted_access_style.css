@@ -27,7 +27,7 @@ body {
     background-color: #00c2cb;
     margin-bottom: 20px;
 }
-input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+input[type="text"], input[type="password"] {
     color: black;
     font-size: 16px;
     padding: 10px;
@@ -35,9 +35,6 @@ input[type="text"], input[type="email"], input[type="date"], input[type="passwor
     border-radius: 10px;
     margin-bottom: 5px;
     border: 1px solid grey;
-}
-input[type="radio"] {
-    margin-bottom: 5px;
 }
 /* Botões */
 input[type="submit"] {

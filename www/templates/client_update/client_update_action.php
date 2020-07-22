@@ -20,9 +20,18 @@ require './client_update_validation.inc.php';
 $clientDao->clientUpdate($client);
 $client_datas = $clientDao->clientLogin($client);
 
+# Verifica se o superusuário está atualizando os dados.
+$restricted_access = isset($_SESSION['restricted_access']) ? $_SESSION['restricted_access'] : 0;
+
 # Verifica se há dados no array cliente.
 if(isset($client_datas['id'])){
-    $_SESSION['client'] = $client_datas;
-    header('Location: ../client_home/client_home_page.php');
+    if($restricted_access == 1){
+        $_SESSION['client'] = '';
+        $_SESSION['restricted_access'] = 0;
+        header('Location: ../client_list/client_list_page.php');
+    } else {
+        $_SESSION['client'] = $client_datas;
+        header('Location: ../client_home/client_home_page.php');
+    }
 }
 

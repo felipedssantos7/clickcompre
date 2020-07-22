@@ -11,7 +11,9 @@ se repete em várias páginas.
         <a href="#" class="menu-item">Quem somos</a>
         <a href="#" class="menu-item">Produtos</a>
         <a href="#" class="menu-item">Promoções</a>
-        <a href="#" class="menu-item">Localização</a>
-        <a href="#" class="menu-item last-item">Contato</a>
+        <a href="#" class="menu-item">Contato</a>
+        <a href="../restricted_access/restricted_access_page.php" class="menu-item last-item">
+            Acesso restrito
+        </a>
     </div>
 </div><br>

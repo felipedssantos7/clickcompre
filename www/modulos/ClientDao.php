@@ -68,5 +68,16 @@ class ClientDao {
         $stmt->execute();
     }
     
+    # Listar todos os clientes.
+    public function clientList(){
+        # Procedimento.
+        $stmt = $this->pdo->prepare("CALL clientList()");
+        # Execução.
+        $stmt->execute();
+        # Retorno.
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+    }
+    
 }
 
