@@ -10,23 +10,12 @@ desejam comprar produtos da loja.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index_style.css">
+        <link rel="stylesheet" href="../components/css/components_navbar_style.css">
         
     </head>
     <body>
+        <?php require '../components/components_navbar.inc.php'; ?>
         <div class="container">
-            <div id="navbar">
-                <div id="logo">
-                    <img src="../../galeria/logo_clickcompre.png"/>
-                </div>
-                <div id="menu">
-                    <a href="#" class="menu-item">Home</a>
-                    <a href="#" class="menu-item">Quem somos</a>
-                    <a href="#" class="menu-item">Produtos</a>
-                    <a href="#" class="menu-item">Promoções</a>
-                    <a href="#" class="menu-item">Localização</a>
-                    <a href="#" class="menu-item last-item">Contato</a>
-                </div>
-            </div><br>
             <div id="text">
                 Faça seu <span class="blue-text">cadastro</span> e 
                 <span class="blue-text">compre</span> pelo site! 

@@ -3,8 +3,10 @@
     <head>
         <title>HomePage</title>
         <link rel="stylesheet" href="css/client_home_style.css">
+        <link rel="stylesheet" href="../components/css/components_navbar_style.css">
     </head>
     <body>
+        <?php require '../components/components_navbar.inc.php'; ?>
         <div id="content">
             <span id="client-info">
                 <h2 id="title">Informações do cliente</h2>

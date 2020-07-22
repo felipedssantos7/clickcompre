@@ -3,24 +3,14 @@
     <head>
         <title>Cadastro</title>
         <link rel="stylesheet" href="css/client_register_style.css">
+        <link rel="stylesheet" href="../components/css/components_navbar_style.css">
     </head>
     <body>
-        <div id="navbar">
-            <div id="logo">
-                <img src="../../galeria/logo_clickcompre.png"/>
-            </div>
-            <div id="menu">
-                <a href="../index/index.php" class="menu-item">Home</a>
-                <a href="#" class="menu-item">Quem somos</a>
-                <a href="#" class="menu-item">Produtos</a>
-                <a href="#" class="menu-item">Promoções</a>
-                <a href="#" class="menu-item">Localização</a>
-                <a href="#" class="menu-item last-item">Contato</a>
-            </div>
-        </div><br>
+        <?php require '../components/components_navbar.inc.php'; ?>
         <div id="content">
             <span id="content-form">
                 <h1 id="title">Cadastre-se</h1>
+                <span class="line"></span>
                 <form method="post" action="client_register_action.php">
                     <div id="name-group">
                         <label for="name">Nome completo: </label>
