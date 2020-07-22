@@ -35,11 +35,11 @@ desejam comprar produtos da loja.
             <div class="box">
                 <label>Faça login no site:</label>
                 <a href="../client_login/client_login_page.php">
-                    <button>Login</button>
+                    <button id="btn-login">Login</button>
                 </a><br>
-                <label>Ainda não é cadastrado?:</label>
+                <label>Ainda não é cadastrado?</label>
                 <a href="../client_register/client_register_page.php">
-                    <button>Cadastro</button>
+                    <button id="btn-register">Cadastre-se</button>
                 </a>
                 <div>
                     <?php echo $not_login ?>

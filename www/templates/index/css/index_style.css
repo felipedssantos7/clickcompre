@@ -52,21 +52,27 @@ a {
 .blue-text {
     color: #00c2cb;
 }
-/* Botões */
-button {
-    display: block;
-    border: none;
-    padding: 15px;
-    width: 300px;
-    margin-bottom: 5px;
-    margin-left: 60px;
-    border-radius: 10px;
-}
+    /* Botões */
+    button {
+        display: block;
+        border: none;
+        padding: 15px;
+        width: 300px;
+        margin-bottom: 5px;
+        margin-left: 60px;
+        border-radius: 10px;
+    }
 a button {
     color: white;
     font-weight: bold;
     font-size: 18px;
     background-color: #00c2cb;
+    border: 3px solid #00c2cb;
+}
+#btn-register {
+    color: #00c2cb;
+    background-color: white;
+    border: 3px solid #00c2cb;
 }
 a button:hover {
     cursor: pointer;

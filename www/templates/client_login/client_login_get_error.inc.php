@@ -10,7 +10,7 @@ switch ($invalide_datas){
     case 0:
         break;
     case 1:
-        $error = 'Preencha todos os campos!*';
+        $error = 'Preencha todos os campos!';
         break;
     case 2:
         $error = 'Cliente não cadastrado!';
