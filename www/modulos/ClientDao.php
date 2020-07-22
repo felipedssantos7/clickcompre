@@ -9,7 +9,7 @@ class ClientDao {
     # PHP Data Object.
     var $pdo;
     function __construct() {
-        $this->pdo = new PDO("mysql:dbname=heroku_b4cd65cb5d1df28;host=us-cdbr-east-02.cleardb.com","b81698ac9e2b6a","2241ac90");
+        $this->pdo = new PDO("mysql:dbname=heroku_d6201449cfb0877;host=us-cdbr-east-02.cleardb.com","b83fb58e3bc384","17d5fbf8");
     }
     
     # Cadastro.

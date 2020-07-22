@@ -26,7 +26,8 @@ if($client->get_name() != ''
         && $client->get_gender() != '' 
         && $client->get_date_of_birth() != '' 
         && $password_client != ''){
-    # Verifica se o nome, e-mail e senha são válidos.
+    # Verifica se o nome, e-mail e senha são válidos e, caso não, retornam à
+    # página de cadastro informando o erro.
     if(strlen(($client->get_name())) <= 2){
         header('Location: client_register_page.php?invalide_datas=1');
         die();

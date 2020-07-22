@@ -17,7 +17,7 @@ $phrase = isset($_POST['phrase']) ? $_POST['phrase'] : '';
 if($phrase == "Eu desejo apagar minha conta."){
     # Recupera id.
     $id = $_SESSION['client']['id'];
-    # Delete cliente.
+    # Deleta cliente.
     $clientDao = new ClientDao();
     $clientDao->clientDelete($id);
     # Limpa variável de sessão.

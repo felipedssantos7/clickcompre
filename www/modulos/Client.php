@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Descrição de Cliente
+ * Descrição de Cliente.
  *
  * @author felipe
  */

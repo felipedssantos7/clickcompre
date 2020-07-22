@@ -1,13 +1,18 @@
+<!DOCTYPE html>
 <?php require '../../lib/utils/utils_array2client.php'; ?>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>HomePage</title>
+        <!-- CSS. -->
         <link rel="stylesheet" href="css/client_home_style.css">
         <link rel="stylesheet" href="../components/css/components_navbar_style.css">
     </head>
     <body>
+        <!-- Navbar. -->
         <?php require '../components/components_navbar.inc.php'; ?>
         <div id="content">
+            <!-- Dados do cliente. -->
             <span id="client-info">
                 <h2 id="title">Informações do cliente</h2>
                 <span class="line"></span>
@@ -26,6 +31,7 @@
                     <label>Senha criptografada: </label>
                         <?php echo " ". $client->get_password(); ?><br>
                 </div>
+                <!-- Opções. -->
                 <div id="buttons">
                     <a href="../client_update/client_update_page.php">
                         <button>Atualizar meus dados</button>
@@ -34,7 +40,6 @@
                         <button>Apagar minha conta</button>
                     </a>
                 </div>
-                
             </span>
         </div>
     </body>

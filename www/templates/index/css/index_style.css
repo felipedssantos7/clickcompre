@@ -1,4 +1,8 @@
-/* Configuração padrão. */
+/*
+ * Este arquivo contém a estilização da página index do site. 
+*/
+
+/* Body. */
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +29,7 @@ a {
 .blue-text {
     color: #00c2cb;
 }
-    /* Botões */
+/* Botões */
 button {
     display: block;
     border: none;

@@ -1,4 +1,4 @@
-/* Configuração padrão. */
+/* Body. */
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     background-position-x: right;
     background-position-y: 60px;
 }
-/* Conteúdo. */
+/* Formulário. */
 #content-form {
     display: inline-block;
     border-radius: 20px;
@@ -17,6 +17,7 @@ body {
     padding: 15px 25px 20px 25px;
     margin: 50px 10%;
 }
+/* Título. */
 #title {
     text-align: center;
 }
@@ -27,6 +28,7 @@ body {
     background-color: white;
     margin-bottom: 20px;
 }
+/* Campos do formulário. */
 input[type="email"], input[type="password"] {
     color: black;
     font-size: 18px;
@@ -36,7 +38,7 @@ input[type="email"], input[type="password"] {
     margin-bottom: 10px;
     border: 1px solid grey;
 }
-/* Botões */
+/* Botões. */
 input[type="submit"] {
     display: block;
     border: none;
@@ -59,6 +61,7 @@ label {
     display: block;
     margin-bottom: 5px;
 }
+/* Mensagem de erro. */
 #error {
     margin-top: 10px;
 }

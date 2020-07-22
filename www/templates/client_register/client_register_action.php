@@ -20,6 +20,7 @@ require './client_register_validation.inc.php';
 $clientDao->clientRegister($client);
 $client_datas = $clientDao->clientLogin($client);
 
+# Verifica se há dados no array cliente.
 if(isset($client_datas['id'])){
     $_SESSION['client'] = $client_datas;
     header('Location: ../client_home/client_home_page.php');

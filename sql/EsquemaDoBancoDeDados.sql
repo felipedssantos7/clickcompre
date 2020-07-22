@@ -2,10 +2,11 @@
 -- drop database clickevolue;
 -- create database clickevolue;
 -- use clickevolue;
--- User: b81698ac9e2b6a
--- Password: 2241ac90
+-- mysql://b83fb58e3bc384:17d5fbf8@us-cdbr-east-02.cleardb.com/heroku_d6201449cfb0877?reconnect=true
+-- User: b83fb58e3bc384
+-- Password: 17d5fbf8
 -- host: us-cdbr-east-02.cleardb.com
-use heroku_b4cd65cb5d1df28;
+use heroku_d6201449cfb0877;
 
 # Cliente.
 -- Tabela.
@@ -30,11 +31,11 @@ create procedure clientRegister(
 	in password_value varchar(32)
 )
 begin
-	insert into client(name, cpf, email, gender, date_of_birth, password) 
+    insert into client(name, cpf, email, gender, date_of_birth, password) 
 		values (name_value, cpf_value, email_value, gender_value, date_of_birth_value, password_value);
 end $$
 delimiter ;
-call clientRegister('Felipe da Silva Santos', '713.073.664-06', 'felipe@gmail.com', 
+call clientRegister('Felipe da Silva Santos', '109.247.720-93', 'felipe@gmail.com', 
 	'Masculino', '2001-18-11', 'felipe123');
 select * from client;
 -- Login.
@@ -65,7 +66,7 @@ begin
 		gender = gender_value, date_of_birth = date_of_birth_value where id = id_value;
 end $$
 delimiter ;
-call clientUpdate(1, 'Felipe da Silva Santos', '713.073.664-06', 'felipe2@gmail.com', 
+call clientUpdate(1, 'Felipe da Silva Santos', '109.247.720-93', 'felipe2@gmail.com', 
 	'Masculino', '2001-18-11');
 select * from client;
 -- Remoção.
